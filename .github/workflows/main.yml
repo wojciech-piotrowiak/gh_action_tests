@@ -9,7 +9,16 @@ jobs:
     steps:
       - run: |
            echo "::group::Foo"
-           echo "Foo"
+           echo "Foo1"
+           echo "Foo2"
+           echo "Foo3"
+           echo "Foo4"
+           echo "::endgroup"
+           echo "::group::Foo2"
+           echo "FooA"
+           echo "FooB"
+           echo "FooC"
+           echo "FooD"
            echo "::endgroup"
       
   
