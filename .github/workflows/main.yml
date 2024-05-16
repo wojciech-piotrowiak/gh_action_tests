@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "::group::default"
-      - run: echo 'test1'
-      - run: echo 'test2'
-      - run: echo "::endgroup::"
+      - run: |
+           echo "::group::Foo"
+           echo "Foo"
+           echo "::endgroup"
       
   
