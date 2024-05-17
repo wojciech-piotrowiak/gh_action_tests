@@ -21,6 +21,7 @@ jobs:
            echo "FooD"
            echo "::endgroup"
            echo "::add-mask::Mona The Octocat"
+           echo Here too we can see the same build configuration: $TEST
 
       
   
